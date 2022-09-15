@@ -2,13 +2,13 @@ package week1;
 
 public class MukemmelSayilar {
     public static void main(String[] args) {
-        System.out.println(checkPerferctNumber(5)); // Mukemmel Sayi Degildir yazar
-        System.out.println(checkPerferctNumber(-4)); // Gecersiz Sayi yazar
-        System.out.println(checkPerferctNumber(28)); // Mukemmel Sayidir yazar
+        System.out.println(checkPerfectNumber(5)); // Mukemmel Sayi Degildir yazar
+        System.out.println(checkPerfectNumber(-4)); // Gecersiz Sayi yazar
+        System.out.println(checkPerfectNumber(28)); // Mukemmel Sayidir yazar
 
     }
 
-    private static String checkPerferctNumber(int number) {
+    private static String checkPerfectNumber(int number) {
         if (number < 1) {
             return "Gecersiz Sayi";
         }
