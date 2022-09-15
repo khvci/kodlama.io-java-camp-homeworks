@@ -2,7 +2,16 @@ package week1;
 
 public class SayiAsalMi {
     public static void main(String[] args) {
-        int number = 7;
+        isPrime(-1); // Gecersiz Sayi yazar
+        isPrime(0); // Asal Sayi Degil yazar
+        isPrime(1); // Asal Sayi yazar
+        isPrime(2); // Asal Sayi yazar
+        isPrime(3); // Asal Sayi yazar
+        isPrime(4); // Asal Sayi Degil yazar
+
+    }
+
+    private static void isPrime(int number) {
         boolean isPrime = true;
 
         if (number < 2) {
@@ -23,6 +32,5 @@ public class SayiAsalMi {
         } else {
             System.out.println("Gecersiz Sayi");
         }
-
     }
 }
