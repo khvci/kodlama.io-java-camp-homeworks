@@ -13,6 +13,6 @@ public class EnBuyukSayi {
             if (i > enBuyuk) enBuyuk = i;
         }
 
-        System.out.println(enBuyuk);
+        System.out.println("En buyuk = " + enBuyuk);
     }
 }
