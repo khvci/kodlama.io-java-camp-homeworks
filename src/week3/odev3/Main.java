@@ -35,8 +35,8 @@ public class Main {
         category2.setCategoryName("Programlama");
 
         CategoryManager categoryManager = new CategoryManager();
-        categoryManager.createCategory(category1); //Kategori yaratildi: Programlama
-        categoryManager.createCategory(category2); //Kategori zaten mevcut: Programlama
+        categoryManager.createCategory(category1, loggers); //Kategori yaratildi: Programlama
+        categoryManager.createCategory(category2, loggers); //Kategori zaten mevcut: Programlama
 
         CourseManager courseManager = new CourseManager();
         courseManager.addCourse(course1, loggers); //Kurs eklendi: (2022) Yazılım Geliştirici Yetiştirme Kampı - JAVA
